@@ -1,0 +1,12 @@
+export default function NavBar() {
+  return (
+    <div class="navbar">
+      <a class="active" href="#home">
+        Home
+      </a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+  );
+}
