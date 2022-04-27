@@ -6,7 +6,7 @@ export default function List(props) {
         <article class="leaderboard__profile">
           <img
             src="https://randomuser.me/api/portraits/men/32.jpg"
-            alt="Mark Zuckerberg"
+            alt={x}
             class="leaderboard__picture"
           />
           <span class="leaderboard__name">{x}</span>
